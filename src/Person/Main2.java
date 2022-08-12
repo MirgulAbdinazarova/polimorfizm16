@@ -10,12 +10,21 @@ public class Main2 {
 
         System.out.println(programmer);
         programmer.coding();
+        programmer.eat();
+        programmer.learn();
+        programmer.walk();
         System.out.println("------------------");
         System.out.println(dancer);
         dancer.dansing();
+        dancer.eat();
+        dancer.learn();
+        dancer.walk();
         System.out.println("-------------------");
         System.out.println(singer);
         singer.singing();
         singer.playGitar();
+        singer.eat();
+        singer.learn();
+        singer.walk();
     }
 }
